@@ -1,6 +1,12 @@
 <template>
   <div class="character">
     <div class="go-back-button">
+      <div>
+  <b-button>Button</b-button>
+  <b-button variant="danger">Button</b-button>
+  <b-button variant="success">Button</b-button>
+  <b-button variant="outline-primary">Button</b-button>
+</div>
       <button @click="changeView('home')">Go back </button>
     </div>
     <div class="character__title">
